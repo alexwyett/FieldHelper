@@ -63,6 +63,18 @@ $validation = array(
     'lastName' => array(
         'required' => true,
         'maxLength' => 50
+    ),
+    'day' => array(
+        'required' => true,
+        'type' => 'integer'
+    ),
+    'month' => array(
+        'required' => true,
+        'type' => 'integer'
+    ),
+    'year' => array(
+        'required' => true,
+        'type' => 'integer'
     )
 );
 
